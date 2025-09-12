@@ -9,6 +9,19 @@ public class FizzBuzz {
      * Output should be 100 whitespace-separated tokens (spaces or newlines are fine).
      */
     public static void main(String[] args) {
-        // TODO
+        int x = 0;
+        while (x-- < 100) {
+            if (x % 3 == 0 && x % 5 == 0) {
+                System.out.println("fizzbuzz");
+            } else if (x % 3 == 0) {
+                System.out.println("fizz");
+            } else if (x % 5 == 0) {
+                System.out.println("buzz");
+            } else {
+                System.out.println(x);
+            }
+
+
+        }
     }
 }
